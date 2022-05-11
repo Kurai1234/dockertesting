@@ -1,7 +1,7 @@
 const app = require('express')();
 
 app.get('/', (req, res ) => 
-    res.json({ message: 'Docker is not easy 🐳' }) 
+    res.json({ message: 'Docker is not so for real easy 🐳' }) 
 );
 
 const port = process.env.PORT || 8080;
